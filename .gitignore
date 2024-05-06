@@ -1,0 +1,23 @@
+# Ignore Django migration files
+**/migrations/
+
+# Ignore environment-specific settings files
+.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore dependencies managed by pipenv or pip
+Pipfile
+Pipfile.lock
